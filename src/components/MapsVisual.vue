@@ -8,11 +8,9 @@
         </li>
       </ul>
     </LMap>
-
-    <div class="container xm-auto  py-10">
-      <div class="mx-auto mb-10 lg:max-w-xl">
+      <div class="mx-auto mb-10 my-8">
         <h2
-          class="inline-block px-3 py-px text-xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          class="inline-block px-3  text-xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
           Daftar Lokasi Cagar Budaya
         </h2>
       </div>
@@ -48,7 +46,6 @@
       </div>
       <ListCagarBudaya :listItemCagarBudaya="listItemCagarBudaya" />
     </div>
-  </div>
 </template>
 
 
@@ -124,6 +121,8 @@
 
 <style scoped>
   .maps-container {
+    width: 100vw;
+    margin: auto;
     height: 50vh;
   }
 </style>
